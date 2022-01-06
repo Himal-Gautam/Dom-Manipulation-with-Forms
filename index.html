@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <H1 id="title">DOM Manipulation using forms</H1>
+    <p id="description">Onsubmit of the form values the values must be appended to the table.</p>
+
+    <form id="form" class="form flex-container">
+            <div class="form-group">
+                <label for="first-name">First Name</label><br>
+                <input class="inputs" type="text" id="first-name" placeholder="First Name" required/>
+            </div>
+       
+            <div class="form-group">
+                <label for="last-name">Last Name</label><br>
+                <input class="inputs" type="text" id="last-name" placeholder="Last Name" required/>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label><br>
+                <textarea class="inputs" name="address" id="address" cols="21" rows="5" placeholder="Address"></textarea>
+            </div>
+       
+            <div class="form-group">
+                <label for="pincode">Pincode</label><br>
+                <input class="inputs"  type="text" id="pincode" placeholder="Pincode" required/>
+            </div>
+        
+            <div class="form-group">
+                <label for="state">State</label><br>
+                <input class="inputs" type="text" id="state" placeholder="State" required/>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country</label><br>
+                <input class="inputs" type="text" id="country" placeholder="Country" required/>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label><br>
+                <input type="radio" id="Male" name="gender" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="gender" value="Female">
+                <label for="Female">Female</label>
+            </div>
+
+            <div class="form-group">
+                <label for="food">Food of Choice</label><br>
+                <input type="checkbox" id="food1" name="food1" value="Pasta" class="choice">
+                <label for="food1">Pasta</label><br>
+                <input type="checkbox" id="food2" name="food2" value="Pizza" class="choice">
+                <label for="food2">Pizza</label><br>
+                <input type="checkbox" id="food3" name="food3" value="Noodles" class="choice">
+                <label for="food3">Noodles</label><br>
+                <input type="checkbox" id="food4" name="food4" value="Burger" class="choice">
+                <label for="food2">Burger</label><br>
+                <input type="checkbox" id="food5" name="food5" value="French Fries" class="choice">
+                <label for="food3">French Fries</label><br>
+            </div>
+       
+            <div class="form-group">
+                <button id="submit" class="btn btn-primary" >SUBMIT</button>
+            </div>
+    </form>
+
+    
+    <table class="table">
+        <thead>
+            <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Pincode</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Gender</th>
+            <th>Choice of Food</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+  </table>
+</body>
+<script src="script.js"></script>
+</html>

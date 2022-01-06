@@ -1,0 +1,30 @@
+#form{
+    width: flex;
+    margin: auto;
+    border: 1px solid black;
+    content: flex;
+}
+*{
+    color:black;
+}
+body{
+    background-image: url("https://wallpaperbat.com/img/236515-reading-books-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.form{
+    width: 30%;
+    padding: 36px;
+    background-color: #F0F8FF;
+}
+
+#description,#title{
+    text-align: center;
+}
+
+table,th,td{
+    border:2px solid white;
+    background-color: #F0F8FF;
+}
